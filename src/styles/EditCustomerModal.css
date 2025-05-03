@@ -1,0 +1,78 @@
+.glass-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .glass-modal {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 2rem;
+    width: 400px;
+    color: #fff;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+  
+  .glass-input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .glass-input-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+  
+  .glass-input-group input,
+  .glass-input-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 0.95rem;
+  }
+  
+  .glass-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .glass-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .glass-btn.primary {
+    background: #ffffff;
+    color: #333;
+  }
+  
+  .glass-btn.cancel {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  .glass-btn.danger {
+    background: #ff4d4d;
+    color: white;
+  }
+  

@@ -1,0 +1,56 @@
+.glass-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .glass-modal {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    padding: 2rem;
+    border-radius: 12px;
+    width: 320px;
+    backdrop-filter: blur(12px);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .glass-modal input {
+    width: 100%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .glass-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .glass-btn {
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .glass-btn.primary {
+    background: #8e44ad;
+    color: white;
+  }
+  
+  .glass-btn.cancel {
+    background: #ccc;
+    color: black;
+  }
+  
